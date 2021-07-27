@@ -36,7 +36,32 @@ String givenString = "Natural Wonders,Wonders of the World,Mount Everest,Saturn,
         System.out.println(result);
 ```
 
-Использование Spliterators позволяет вам не вводить дополнительные промежуточные переменные. 
+
+
+## Установка
+
+Импортируйте библиотеку в свой проект, используя [jitpack](https://jitpack.io/#JavaStream/spliterators/1.0.0.J1) repository
+
+#### Gradle
+
+1. Добавьте репозиторий jitpack в ваш build.gradle
+
+```gradle
+repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+}
+```
+
+2. Добавьте зависимость на библиотеку Spliterators
+
+```gradle
+implementation 'com.github.JavaStream:spliterators:1.0.0.J1'
+```
+
+Если требуется, то в JitPack можно получить также Maven зависимость.
+
+
 
 
 ## License
